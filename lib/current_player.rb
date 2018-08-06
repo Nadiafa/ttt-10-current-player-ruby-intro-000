@@ -1,3 +1,3 @@
 def turn_count(board)
-  board.length
+  if board.length
 end
