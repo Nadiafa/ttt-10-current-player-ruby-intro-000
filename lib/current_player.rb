@@ -1,3 +1,9 @@
 def turn_count(board)
-  if board.length.even?
+  turns = 0
+  board.each do |field|
+    if field == "X" || field == "O"
+      turns += 1
+    end
+  end
+  turns
 end
